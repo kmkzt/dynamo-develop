@@ -2,10 +2,12 @@
 
 https://hub.docker.com/r/amazon/dynamodb-local
 
-```
+```shell
 docker run -p 8000:8000 amazon/dynamodb-local
- 
-//or background exec
+# add volumes
+# docker run --rm -p 8000:8000 -v ~/dynamodb-data:/data amazon/dynamodb-local -jar DynamoDBLocal.jar -dbPath /data
+
+# or background exec
 docker-compose up -d
 ```
 

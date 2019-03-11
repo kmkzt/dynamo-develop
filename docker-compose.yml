@@ -7,4 +7,4 @@ services:
     # Exclude inMemory
     command: -jar DynamoDBLocal.jar -dbPath /data 
     volumes:
-      - $PWD/data:/data
+      - $PWD/dynamodb-data:/data
