@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "description": "dynamo development sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmkzt/dynamo-develop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmkzt/dynamo-develop/issues"
+  },
+  "homepage": "https://github.com/kmkzt/dynamo-develop#readme",
+  "dependencies": {
+    "aws-sdk": "^2.418.0"
+  }
+}

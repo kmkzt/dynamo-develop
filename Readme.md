@@ -14,10 +14,19 @@ docker-compose up -d
 access http://localhost:8000/shell/
 setup config.
 
-```
+```js
 var config = new AWS.Config({
   accessKeyId: 'AKID', secretAccessKey: 'SECRET', region: 'us-west-2'
 });
 ```
+
+## docker command
+
+```shell
+docker inspect amazon/dynamodb-local:latest
+```
+
+## aws command
+
 
 https://docs.aws.amazon.com/ja_jp/amazondynamodb/latest/developerguide/SettingUp.html
