@@ -4,5 +4,7 @@ services:
     image: amazon/dynamodb-local
     ports: 
       - "8000:8000"
+    # Exclude inMemory
+    command: -jar DynamoDBLocal.jar -dbPath /data 
     volumes:
-      - ./data:/data
+      - $PWD/data:/data
